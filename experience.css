@@ -89,7 +89,7 @@ h3 {
 .experience__content {
   display: grid;
   grid-template-columns: 1fr;
-  row-gap: 1rem;
+  row-gap: 2rem;
   padding: 30px;
   border-radius: 2rem;
   border: 1px solid transparent;
