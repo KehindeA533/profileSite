@@ -1,0 +1,101 @@
+/* Nav */
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital@1&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  box-sizing: border-box;
+  background-color: #0e131f;
+}
+
+.nav_link,
+.nav_a {
+  font-family: "Raleway", Courier, monospace;
+  font-weight: 400;
+  font-size: 16px;
+  color: #edf0f1;
+  list-style: none;
+}
+
+.nav_link {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 30px 10%;
+  box-shadow: 0 2px 4px #ff0035;
+}
+
+.nav_a {
+  transition: all 0.3s ease 0s;
+}
+.nav_a:hover {
+  color: #ff0035;
+}
+
+img {
+  width: 20%;
+  height: auto;
+}
+
+/* EXP */
+.container {
+  width: 60%;
+  margin: 0 auto;
+}
+
+section {
+  margin-top: 8rem;
+  color: #59546c;
+}
+
+section > h2,
+section > h5 {
+  text-align: center;
+  color: #59546c;
+}
+
+section > h2 {
+  color: #59546c;
+  margin-bottom: 3rem;
+}
+
+h3 {
+  color: #ff0035;
+  background-color: #38405f;
+}
+
+/*  */
+.experience__container {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2rem;
+}
+
+.experience__container > div {
+  background: #38405f;
+  padding: 2.4rem 5rem;
+  border-radius: 2rem;
+  border: 1px solid transparent;
+}
+
+.experience__container > div h3 {
+  text-align: center;
+  margin-bottom: 2rem;
+  color: #59546c;
+}
+
+.experience__content {
+  display: grid;
+  grid-template-columns: 1fr;
+  row-gap: 1rem;
+  padding: 30px;
+  border-radius: 2rem;
+  border: 1px solid transparent;
+}
+
+.experience__details {
+  display: flex;
+  gap: 1rem;
+}

@@ -1,0 +1,67 @@
+/* Nav */
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital@1&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background-color: #0e131f;
+}
+
+.nav_link,
+.nav_a {
+  font-family: "Raleway", Courier, monospace;
+  font-weight: 400;
+  font-size: 16px;
+  color: #edf0f1;
+  list-style: none;
+}
+
+.nav_link {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 30px 10%;
+  box-shadow: 0 2px 4px #ff0035;
+}
+
+.nav_a {
+  transition: all 0.3s ease 0s;
+}
+.nav_a:hover {
+  color: #ff0035;
+}
+
+img {
+  width: 20%;
+  height: auto;
+}
+
+.bio_body {
+  color: #59546c;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10em;
+}
+
+/* Port */
+.portfolio_section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-evenly;
+  margin: 8em;
+}
+
+h2 {
+  margin-top: 8rem;
+  text-align: center;
+  color: #59546c;
+}
+
+h4 {
+  text-align: center;
+  color: #59546c;
+  margin-bottom: 5px;
+}
